@@ -8,6 +8,6 @@ Item: 目，项的基本组成单元
 type Item struct {
 	*meta.Order
 	*meta.Name
-	*meta.Enforce
+	*meta.ForceOfTime
 	Data string
 }

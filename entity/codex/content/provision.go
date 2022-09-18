@@ -8,7 +8,7 @@ import "github.com/seamanw/lawkg-entity/entity/codex/meta"
 type Provision struct {
 	*meta.Order
 	*meta.Name
-	*meta.Enforce
+	*meta.ForceOfTime
 	// 是否使用了条这种目录结构
 	IsUseClause bool      `json:"is_use_clause"`
 	Data        *[]Clause `json:"data"`
