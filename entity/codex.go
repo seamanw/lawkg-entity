@@ -50,6 +50,6 @@ type CodexData struct {
 	Appendix        *content.Appendix  // 法规的附则
 }
 
-func NewCodex() *CodexData {
+func NewCodexData() *CodexData {
 	return &CodexData{}
 }
